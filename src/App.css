@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d1f7c4; /* Very light green-blue background */
+  text-align: center;
+  padding-top: 50px; /* Increased padding from the top */
+}
+
+h1 {
+  color: #ffffff; /* White color for text */
+  background-color: #00b894; /* Parrot green background for h1 */
+  padding: 40px; /* Increased padding */
+  margin: 20px auto; /* Center the h1 */
+  display: inline-block; /* Adjust background width */
+  border-radius: 10px; /* Add border-radius */
+  font-size: 2.5em; /* Increased font size */
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: center; /* Center the emoji containers */
+  gap: 20px; /* Increased gap between emoji containers to 20px */
+  margin: 40px 20px; /* Adjusted margin to add more space between h1 and emoji boxes */
+}
+
+.emoji-entry {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 50px 15px; /* Increased height and decreased width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px; /* Added margin to prevent touching the edge of the screen */
+  transition: transform 0.3s ease-in-out; /* Added transition for smooth hover effect */
+}
+
+.emoji-entry:hover {
+  transform: scale(1.1); /* Enlarge the emoji box on hover */
+}
+
+.emoji {
+  font-size: 2em;
+}
+
+.emoji-name {
+  margin: 10px 0;
+  color: #2d3436;
+}
+
+.emoji-meaning {
+  color: #2d3436;
+}
+/* App.css */
+
+/* Existing styles */
+
+/* App.css */
+
+/* Existing styles */
+
+.click-message {
+  margin-top: 20px;
+  color: #2d3436;
+  font-size: 1.2em;
+}
+
+/* Add styles for the conditional statements */
+.conditional-statements {
+  margin-top: 30px;
+  margin-bottom: 50px; /* Add margin-bottom to shift towards the bottom */
+}
+
+.case-message {
+  margin-top: 5px;
+  font-size: 1.2em;
+  color: #6c5ce7;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 20px; /* Add margin-bottom to shift towards the bottom */
+}
